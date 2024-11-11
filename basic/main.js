@@ -25,7 +25,7 @@ const rend= new THREE.WebGLRenderer();
 rend.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(rend.domElement);
 
-//animation
+//6. animation
 function animate(){
     requestAnimationFrame(animate);
 
