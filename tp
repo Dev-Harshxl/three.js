@@ -57,3 +57,28 @@ function App() {
 
 export default App;
 
+
+
+
+import React from 'react';
+import { Box, Typography, Button, Container } from '@mui/material';
+
+const Home = () => {
+  return (
+    <Container>
+      <Box textAlign="center" mt={5}>
+        <Typography variant="h1" color="primary">
+          Welcome to MeetNest
+        </Typography>
+        <Typography variant="body1" color="textSecondary" mt={2}>
+          A modern video meeting platform with scheduling and recording features.
+        </Typography>
+        <Button variant="contained" color="primary" sx={{ mt: 3 }}>
+          Get Started
+        </Button>
+      </Box>
+    </Container>
+  );
+};
+
+export default Home;
